@@ -592,7 +592,7 @@ Identify dangerous settings in destination directory.
 Recovery completed (start time: 2024-04-10 19:55:01.504875+00:00, elapsed time: 5 seconds)
 Your PostgreSQL server has been successfully prepared for recovery!
 ```
-Проверяем, что удалённая база снова на своём местеЖ
+Проверяем, что удалённая база снова на своём месте:
 ```bash
 [vagrant@node1 ~]$ sudo -i
 [root@node1 ~]# systemctl restart postgresql-14.service 
